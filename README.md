@@ -1,16 +1,57 @@
-# React + Vite
+# Don Pedro — Bodegón Porteño
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page para un restaurante argentino ficticio. Proyecto de portfolio con diseño oscuro y elegante, animaciones de scroll y funcionalidades interactivas.
 
-Currently, two official plugins are available:
+🔗 [Ver demo en vivo] https://don-pedro-beta.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Hero fullscreen con animaciones de entrada
+- Sección historia con estadísticas animadas
+- Menú interactivo con tabs por categoría (Entradas, Principales, Postres, Bebidas)
+- Formulario de reservas con validación completa y pantalla de confirmación
+- Galería de fotos con lightbox al hacer click
+- Carrusel de reseñas con autoplay
+- Sección de ubicación con mapa y horarios — resalta el día actual
+- Navbar fijo que cambia de transparente a oscuro al hacer scroll
+- Diseño 100% responsive
 
-## Expanding the ESLint configuration
+## Tecnologías
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19 + Vite
+- Tailwind CSS
+- Framer Motion (animaciones de scroll y transiciones)
+- React Hook Form (formulario de reservas)
+
+## Correr el proyecto localmente
+
+Requisitos: Node.js v18 o superior
+
+```bash
+git clone https://github.com/TU_USUARIO/don-pedro.git
+cd don-pedro
+npm install
+npm run dev
+```
+
+Abrir [http://localhost:5173](http://localhost:5173) en el navegador.
+
+## Estructura del proyecto
+
+```text
+src/
+├── components/    # Navbar, Footer
+├── sections/      # Hero, Historia, Menu, Reservas, Galeria, Resenas, Ubicacion
+└── data/          # Datos del menú en JS
+```
+
+## Capturas
+
+<p align="center">
+  <img src="./screenshot-home.png" width="30%" />
+  <img src="./screenshot-carta.png" width="30%" />
+  <img src="./screenshot-galeria.png" width="30%" />
+  <img src="./screenshot-ubicacion.png" width="30%" />
+</p>
