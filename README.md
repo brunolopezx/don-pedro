@@ -30,7 +30,7 @@ Landing page para un restaurante argentino ficticio. Proyecto de portfolio con d
 Requisitos: Node.js v18 o superior
 
 ```bash
-git clone https://github.com/TU_USUARIO/don-pedro.git
+git clone https://github.com/brunolopezx/don-pedro.git
 cd don-pedro
 npm install
 npm run dev
