@@ -2,7 +2,7 @@
 
 Landing page para un restaurante argentino ficticio. Proyecto de portfolio con diseño oscuro y elegante, animaciones de scroll y funcionalidades interactivas.
 
-🔗 [Ver demo en vivo] https://don-pedro-beta.vercel.app
+🔗 [Ver demo en vivo](https://don-pedro-beta.vercel.app)
 
 ---
 
